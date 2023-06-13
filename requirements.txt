@@ -1,2 +1,5 @@
 requests==2.26.0
 numpy==1.21.4
+types-psutil
+types-setuptools
+types-typed-ast>=1.5.8,<1.6.0
