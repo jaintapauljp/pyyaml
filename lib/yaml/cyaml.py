@@ -6,11 +6,15 @@ __all__ = [
 
 from yaml._yaml import CParser, CEmitter
 
+# OpenRefactory Warning: Importing every public name using star import should be avoided.
 from .constructor import *
 
+# OpenRefactory Warning: Importing every public name using star import should be avoided.
 from .serializer import *
+# OpenRefactory Warning: Importing every public name using star import should be avoided.
 from .representer import *
 
+# OpenRefactory Warning: Importing every public name using star import should be avoided.
 from .resolver import *
 
 class CBaseLoader(CParser, BaseConstructor, BaseResolver):
